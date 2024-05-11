@@ -42,14 +42,10 @@ def teardown_function(function):
     print("Running Teardown: %s" % function.__name__)
     del function.x
 
-
-### Run to see failed test
-#def test_hello_add():
-#    assert add(test_hello_add.x) == 12
-
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
-    ```
+```
+
 3. Makefile
 
 ```install:
@@ -63,4 +59,5 @@ test:
 lint:
 	pylint --disable=R,C hello.py
 
-all: install lint test```
+all: install lint test
+```
