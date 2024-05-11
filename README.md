@@ -1,7 +1,10 @@
-# devops-azure-project2
+# Devops-azure-project2
+## Descrption
 Automated Deployment of high quality software using DevOps principles is a critical skill in the cloud era. Master the theory and practice of Agile Project management with hands-on examples. Execute a Python centric Continuous Integration strategy that uses testing best practices, including open source code quality tools such as pylint and pytest. Couple Infrastructure-as-Code (IaC) with Continuous Delivery using Azure Pipelines to streamline the deployment of applications to Azure.
 
-
+## Clone the project 
+To clone the project use the command 
+`git clone https://github.com/badiou/devops-azure-project2.git`
 ## Create virtual environment for python
 
 ```
@@ -61,9 +64,7 @@ all: install lint test
 4. Here the result of `make all` command
 ![image](https://github.com/badiou/devops-azure-project2/assets/23726535/1ffbef17-b434-4b6a-9b38-7000b7697d75)
 
-## Clone the project 
-To clone the project use the command 
-`git clone https://github.com/badiou/devops-azure-project2.git`
+
 
 ## Add python-appl.yaml file (GitAction)
 Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
@@ -71,4 +72,6 @@ Define the workflow steps in python-app.yml, specifying triggers, jobs, and acti
 Commit and push the changes to your repository to trigger the GitAction workflow for adding the python-app.yml file.
 
 - Screenshot showing the execution of GitAction workflow
+![GitAction](https://github.com/badiou/devops-azure-project2/assets/23726535/595e163c-4a97-4b09-9062-6d96270f3e4a)
+
 
