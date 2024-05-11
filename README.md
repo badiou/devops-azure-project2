@@ -64,3 +64,11 @@ all: install lint test
 ## Clone the project 
 To clone the project use the command 
 `git clone https://github.com/badiou/devops-azure-project2.git`
+
+## Add python-appl.yaml file (GitAction)
+Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
+Define the workflow steps in python-app.yml, specifying triggers, jobs, and actions to execute on specific events.
+Commit and push the changes to your repository to trigger the GitAction workflow for adding the python-app.yml file.
+
+- Screenshot showing the execution of GitAction workflow
+
