@@ -12,5 +12,4 @@ python3 -m venv ~/.devops-azure-project2
 source ~/.devops-azure-project2/bin/activate
 ```
 
-## Run Makefile to test makefile. This can help to install all requirements for your application.
 
