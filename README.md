@@ -74,4 +74,6 @@ Commit and push the changes to your repository to trigger the GitAction workflow
 - Screenshot showing the execution of GitAction workflow
 ![GitAction](https://github.com/badiou/devops-azure-project2/assets/23726535/595e163c-4a97-4b09-9062-6d96270f3e4a)
 
+## Connect to Azure
+
 
