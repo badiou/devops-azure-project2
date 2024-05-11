@@ -70,7 +70,7 @@ all: install lint test
 Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
 Define the workflow steps in python-app.yml, specifying triggers, jobs, and actions to execute on specific events.
 Commit and push the changes to your repository to trigger the GitAction workflow for adding the python-app.yml file.
-
+[![Python application](https://github.com/badiou/devops-azure-project2/actions/workflows/python-app.yml/badge.svg)](https://github.com/badiou/devops-azure-project2/actions/workflows/python-app.yml)
 - Screenshot showing the execution of GitAction workflow
 ![GitAction](https://github.com/badiou/devops-azure-project2/assets/23726535/595e163c-4a97-4b09-9062-6d96270f3e4a)
 
