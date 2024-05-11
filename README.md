@@ -14,8 +14,9 @@ source ~/.devops-azure-project2/bin/activate
 
 ## How to test your code with basic project
 Before cloning the project, I invite you to retrieve these 3 files in your code in order to be able to test that your code executes the 'make all' command and thus allows you to test your code. These files are hello.py and test_hello.py.
-hello.py
-```def toyou(x):
+1. hello.py
+```
+def toyou(x):
     return "hi %s" % x
 
 
@@ -24,9 +25,11 @@ def add(x):
 
 
 def subtract(x):
-    return x - 1```
+    return x - 1
+    ```
 
-test_hello.py file
+2. test_hello.py file:
+
 ```from hello import toyou, add, subtract
 
 
@@ -47,7 +50,8 @@ def teardown_function(function):
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
     ```
-Your Makefile look like this
+3. Makefile
+
 ```install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
