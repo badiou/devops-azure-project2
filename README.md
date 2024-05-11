@@ -76,4 +76,5 @@ Commit and push the changes to your repository to trigger the GitAction workflow
 
 ## Connect to Azure
 
-
+## CI/CD with Azure pipeline
+[![Build Status](https://dev.azure.com/obbadiou/flask-ml-badiou/_apis/build/status%2Fbadiou.devops-azure-project2?branchName=main)](https://dev.azure.com/obbadiou/flask-ml-badiou/_build/latest?definitionId=10&branchName=main)
