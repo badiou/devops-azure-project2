@@ -13,7 +13,7 @@ source ~/.devops-azure-project2/bin/activate
 ```
 
 ## How to test your code with basic project
-Before cloning the project, I invite you to retrieve these 3 files in your code in order to be able to test that your code executes the 'make all' command and thus allows you to test your code. These files are hello.py and test_hello.py.
+I invite you to retrieve these 3 files in your code in order to be able to test that your code executes the 'make all' command and thus allows you to test your code. These files are hello.py and test_hello.py.
 1. hello.py
 ```
 def toyou(x):
