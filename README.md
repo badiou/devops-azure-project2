@@ -59,7 +59,8 @@ lint:
 all: install lint test
 ```
 4. Here the result of `make all` command
-![alt text](Screenshot/make all screenshoot.png)
+![image](https://github.com/badiou/devops-azure-project2/assets/23726535/1ffbef17-b434-4b6a-9b38-7000b7697d75)
+
 ## Clone the project 
 To clone the project use the command 
 `git clone https://github.com/badiou/devops-azure-project2.git`
