@@ -150,21 +150,8 @@ Locust is a popular open-source load testing tool that allows you to simulate us
 
 We have created demo videos to guide you through various aspects of our project:
 
-1. **Cloning Repository and Installing Prerequisites using Azure CLI (Portal)**:
-   [[Video 1](https://youtu.be/rZ8hjKeIqn8))
-   
-2. **Making Prediction using Azure CLI (Bash)**:
-   [[Video 2](https://youtu.be/7GqW4UddY5I))
-   
-3. **Viewing Live Logs of Azure Web App**:
-   [Video 3](https://youtu.be/8z0V0rGUrwc)
-   
-4. **Creating Azure Pipeline**:
-   [Video 4](https://youtu.be/8wbnz-XxtQQ)
-   
-5. **Automatic Pipeline Trigger on Code Push**:
-   [Video 5](https://youtu.be/ToyrC5FR2LE)
-   
+   [[Video 1](https://youtu.be/TutLAGMlhlY)
+
 ## Deleting Resources
 If you no longer need the application and its associated resources, you can delete them using the following command in Azure CLI:
 `az group delete --name <resource_group_name> --yes`
