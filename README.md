@@ -39,6 +39,7 @@ Now, your virtual environment is activated, and you can install the project depe
 ## Installing Dependencies
 
 To install all the dependencies required for the project, you can use the `make all` command. Follow these steps:
+![2-make all screenshoot](https://github.com/badiou/devops-azure-project2/assets/23726535/17068b51-901e-430e-a3a6-134ee199bcc3)
 
 ## Setting Up GitHub Actions
 
