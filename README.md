@@ -116,8 +116,8 @@ Follow these steps to create a new project in Azure DevOps:
 
 6. **Navigate to the Project Dashboard**: Once the project is created, you'll be redirected to the project dashboard where you can manage your project's settings, repositories, pipelines, etc.
 
-## Creating a Pipeline in Azure DevOps and monitore with locust
-
+## Creating a Pipeline in Azure DevOps
+[![Build Status](https://dev.azure.com/obbadiou/flask-ml-badiou/_apis/build/status%2Fbadiou.devops-azure-project2?branchName=main)](https://dev.azure.com/obbadiou/flask-ml-badiou/_build/latest?definitionId=12&branchName=main)
 Now that you have created a new project, follow these steps to create a pipeline:
 
 1. **Navigate to Pipelines**: In the left sidebar of your project dashboard, click on "Pipelines".
