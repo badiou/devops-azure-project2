@@ -144,7 +144,24 @@ Locust is a popular open-source load testing tool that allows you to simulate us
 2. **Run Locust**: Run the command `locust`
 ![11-locust](https://github.com/badiou/devops-azure-project2/assets/23726535/aaeb43a9-4893-408f-9fcd-469ec846209d)
 
+## Demo Videos
 
+We have created demo videos to guide you through various aspects of our project:
+
+1. **Cloning Repository and Installing Prerequisites using Azure CLI (Portal)**:
+   [[Video 1](https://youtu.be/rZ8hjKeIqn8))
+   
+2. **Making Prediction using Azure CLI (Bash)**:
+   [[Video 2](https://youtu.be/7GqW4UddY5I))
+   
+3. **Viewing Live Logs of Azure Web App**:
+   [Video 3](https://youtu.be/8z0V0rGUrwc)
+   
+4. **Creating Azure Pipeline**:
+   [Video 4](https://youtu.be/8wbnz-XxtQQ)
+   
+5. **Automatic Pipeline Trigger on Code Push**:
+   [Video 5](https://youtu.be/ToyrC5FR2LE)
 
 
 
