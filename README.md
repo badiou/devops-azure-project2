@@ -1,6 +1,34 @@
 # Apartment Price Prediction App
 
 Welcome to our Apartment Price Prediction App! This Flask-based Python application serves as a platform for predicting apartment prices based on various features. Leveraging machine learning models, users can input property details and receive estimated pricing.
+# Apartment Price Prediction Project
+
+## Project Management
+
+To ensure effective project management, we employ a combination of short-term planning and agile management methodologies.
+
+### 3-Month MVP Planning
+
+We have created an Excel file detailing the goals and MVP (Minimum Viable Product) features for the first three months of the project. This Excel file helps us track progress, define priority tasks, and maintain a clear vision of short-term deliverables.
+
+You can access the Excel file [here](https://docs.google.com/spreadsheets/d/1DKTTsQgassI76JfxDaXbyc6Gn6RvHIfpx_ACpXy5IV0/edit?usp=sharing).
+
+### Agile Management with Trello
+
+We use Trello for agile management of our project. Trello allows us to create custom Kanban boards, assign tasks to team members, track development stages, and prioritize features. This helps us stay organized and collaborate effectively throughout the development cycle.
+
+Here's a preview of our Trello board:
+
+[![Trello Board](![Trello](https://github.com/badiou/devops-azure-project2/assets/23726535/7dd92483-5aa9-4d67-8e5d-c83d9e4b7225)
+)](https://trello.com/invite/b/s5xpZs18/ATTI27721d4cff6611f94ccd433660cbd7fa56BB5405/flask-ml-project2)
+
+---
+
+## Apartment Price Prediction App
+
+Welcome to our Apartment Price Prediction App! This Flask-based Python application serves as a platform for predicting apartment prices based on various features. Leveraging machine learning models, users can input property details and receive estimated pricing.
+
+...
 
 ## Key Features:
 - **Prediction Model:** Utilizes machine learning algorithms to forecast apartment prices.
