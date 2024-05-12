@@ -1,70 +1,80 @@
-# Devops-azure-project2
-## Descrption
-Automated Deployment of high quality software using DevOps principles is a critical skill in the cloud era. Master the theory and practice of Agile Project management with hands-on examples. Execute a Python centric Continuous Integration strategy that uses testing best practices, including open source code quality tools such as pylint and pytest. Couple Infrastructure-as-Code (IaC) with Continuous Delivery using Azure Pipelines to streamline the deployment of applications to Azure.
+# Apartment Price Prediction App
+
+Welcome to our Apartment Price Prediction App! This Flask-based Python application serves as a platform for predicting apartment prices based on various features. Leveraging machine learning models, users can input property details and receive estimated pricing.
+
+## Key Features:
+- **Prediction Model:** Utilizes machine learning algorithms to forecast apartment prices.
+- **Flask Web Interface:** Offers a user-friendly web interface for seamless interaction.
+- **Azure Deployment:** Deployed on Azure, ensuring scalability and reliability.
+- **Continuous Integration/Continuous Deployment (CI/CD):** Integrated with Azure Pipelines and GitHub Actions for streamlined development and deployment workflows.
+- **Load Testing with Locust:** Ensures application performance and reliability under heavy traffic.
+
+## Getting Started
+
+To get started with the project, follow these simple steps:
+
+1. Clone the repository:
 
 ## Clone the project 
 To clone the project use the command 
 `git clone https://github.com/badiou/devops-azure-project2.git`
-## Create virtual environment for python
 
-```
-python3 -m venv ~/.devops-azure-project2
-source ~/.devops-azure-project2/bin/activate
-```
+2. Navigate to the project directory:
+`cd devops-azure-project2`
 
-## How to test your code with basic project
-I invite you to retrieve these 3 files in your code in order to be able to test that your code executes the 'make all' command and thus allows you to test your code. These files are hello.py and test_hello.py.
-1. hello.py
-```
-def toyou(x):
-    return "hi %s" % x
+## Setting Up Virtual Environment
 
+To ensure a clean and isolated environment for the project, it's recommended to set up a Python virtual environment. Follow these steps to create and activate the virtual environment:
 
-def add(x):
-    return x + 1
+1. Open a terminal.
 
+2. Run the following command to create a virtual environment named `devops-azure-project2` in your home directory:
+`python3 -m venv ~/.devops-azure-project2`
 
-def subtract(x):
-    return x - 1
-```
+3. Activate the virtual environment by running the following command:
+`source ~/.devops-azure-project2/bin/activate`
 
-2. test_hello.py file:
+Now, your virtual environment is activated, and you can install the project dependencies without affecting the global Python environment.
 
-```from hello import toyou, add, subtract
+## Installing Dependencies
 
+To install all the dependencies required for the project, you can use the `make all` command. Follow these steps:
 
-def setup_function(function):
-    print("Running Setup: %s" % function.__name__)
-    function.x = 10
+## Setting Up GitHub Actions
 
+GitHub Actions automates your workflow directly from your repository, allowing you to build, test, and deploy your code. Follow these steps to set up GitHub Actions for your project:
 
-def teardown_function(function):
-    print("Running Teardown: %s" % function.__name__)
-    del function.x
+1. **Create Workflow File**: In your project repository, create a directory named `.github/workflows`.
 
-def test_hello_subtract():
-    assert subtract(test_hello_subtract.x) == 9
-```
+2. **Define Workflow**: Inside the `.github/workflows` directory, create a YAML file (e.g., `python-app.yml`) to define your workflow. Here's a basic example to get you started:
 
-3. Makefile
+   ```yaml
+   name: Python application
 
-```install:
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+   on:
+     push:
+       branches: [ main ]
+     pull_request:
+       branches: [ main ]
 
-test:
-	python -m pytest -vv test_hello.py
+   jobs:
+     build:
+       runs-on: ubuntu-latest
 
+       steps:
+       - uses: actions/checkout@v24
 
-lint:
-	pylint --disable=R,C hello.py
+       - name: Set up Python
+         uses: actions/setup-python@v43
+         with:
+           python-version: '3.8'
 
-all: install lint test
-```
-4. Here the result of `make all` command
-![image](https://github.com/badiou/devops-azure-project2/assets/23726535/1ffbef17-b434-4b6a-9b38-7000b7697d75)
+       - name: Install dependencies
+         run: |
+           python -m pip install --upgrade pip
+           pip install -r requirements.txt
 
-
+       # Add more steps as needed for your CI/CD pipeline
 
 ## Add python-appl.yaml file (GitAction)
 Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
