@@ -47,7 +47,7 @@ GitHub Actions automates your workflow directly from your repository, allowing y
 1. **Create Workflow File**: In your project repository, create a directory named `.github/workflows`.
 
 2. **Define Workflow**: Inside the `.github/workflows` directory, create a YAML file (e.g., `python-app.yml`) to define your workflow.
-
+![python-app yml screenshoot](https://github.com/badiou/devops-azure-project2/assets/23726535/44b13a46-33db-4e05-8f46-ccd99efe9611)
 
 ## Add python-appl.yaml file (GitAction)
 Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
