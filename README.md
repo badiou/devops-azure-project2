@@ -1,10 +1,7 @@
 # Apartment Price Prediction App
 
 Welcome to our Apartment Price Prediction App! This Flask-based Python application serves as a platform for predicting apartment prices based on various features. Leveraging machine learning models, users can input property details and receive estimated pricing.
-# Apartment Price Prediction Project
-
 ## Project Management
-
 To ensure effective project management, we employ a combination of short-term planning and agile management methodologies.
 
 ### 3-Month MVP Planning
@@ -20,8 +17,6 @@ We use Trello for agile management of our project. Trello allows us to create cu
 Here's a preview of our Trello board:
 
 [Trello Board](https://trello.com/invite/b/s5xpZs18/ATTI27721d4cff6611f94ccd433660cbd7fa56BB5405/flask-ml-project2)
-
----
 
 ## Apartment Price Prediction App
 
