@@ -83,7 +83,7 @@ Commit and push the changes to your repository to trigger the GitAction workflow
 
 2. **Install Dependencies**: run `make all`
 
-3. **Create your webapp**: `az webapp up -n <app-name> -l eastus`
+3. **Create your webapp**: `az webapp up -n <app-name> -l eastus -sku B1`
 <img width="1419" alt="6-webpp create sucessfully" src="https://github.com/badiou/devops-azure-project2/assets/23726535/b3750468-0f1a-4296-b501-f210625abdb7">
 
 ## Viewing the Application
