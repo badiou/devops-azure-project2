@@ -138,6 +138,10 @@ By following these steps, you can create a new project in Azure DevOps and confi
 ![7-pipeline run after push change to git repository](https://github.com/badiou/devops-azure-project2/assets/23726535/e66b3937-95df-49b4-97bb-13e229e5ca30)
 ![10-azure pipeline build and deploy  web app completed](https://github.com/badiou/devops-azure-project2/assets/23726535/c74d9f84-aa49-4557-84de-9df40b48dcce)
 
+## Viewing Logs
+
+To view real-time logs for your Azure Web App, you can use the `az webapp log tail` command. This command allows you to tail the logs directly from the command line interface, providing insights into the runtime behavior of your web application.
+
 ## Running Load Tests with Locust
 
 Locust is a popular open-source load testing tool that allows you to simulate user traffic on your application and measure its performance under load. Follow these steps to run load tests with Locust:
