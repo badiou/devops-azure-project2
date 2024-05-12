@@ -80,12 +80,50 @@ Once your application is deployed and running on Azure, you can view it in your 
 
 3. **Explore the Application**: Once the URL is opened in your browser, you should see your Flask Python application's interface.
 ![running app](https://github.com/badiou/devops-azure-project2/assets/23726535/ba638dde-47e2-4645-852a-1fbca8c010fa)
-
 ## Making Predictions
-
 In our Apartment Price Prediction App, you can easily make predictions bu running the commands
 `./make_predict_azure_app.sh`
 <img width="1430" alt="3-Prediction" src="https://github.com/badiou/devops-azure-project2/assets/23726535/4f8ceb56-31e2-438c-828a-7b7cdfc5b82e">
+## Creating a New Project in Azure DevOps
+
+Follow these steps to create a new project in Azure DevOps:
+
+1. **Sign in to Azure DevOps**: Go to [Azure DevOps](https://dev.azure.com/) and sign in to your account.
+
+2. **Navigate to Organization**: If you have multiple organizations, select the appropriate organization where you want to create the project.
+
+3. **Create New Project**: In the top right corner, click on the "New Project" button.
+
+4. **Fill in Project Details**: Enter a name for your project, choose visibility options, and configure other settings as needed.
+
+5. **Create the Project**: Click on the "Create" button to create the project.
+
+6. **Navigate to the Project Dashboard**: Once the project is created, you'll be redirected to the project dashboard where you can manage your project's settings, repositories, pipelines, etc.
+
+## Creating a Pipeline in Azure DevOps
+
+Now that you have created a new project, follow these steps to create a pipeline:
+
+1. **Navigate to Pipelines**: In the left sidebar of your project dashboard, click on "Pipelines".
+
+2. **Create New Pipeline**: Click on the "New Pipeline" button to create a new pipeline.
+
+3. **Select a Repository**: Choose the repository where your project code is hosted. This could be Azure Repos Git, GitHub, Bitbucket, etc.
+
+4. **Choose a Pipeline Configuration**: Azure DevOps provides several templates to get started. Select the appropriate template based on your project requirements (e.g., Python, Node.js, Docker, etc.).
+
+5. **Configure Pipeline**: Follow the prompts to configure your pipeline. This may include specifying trigger conditions, defining build stages, adding tasks, etc.
+
+6. **Save and Run Pipeline**: Once you've configured the pipeline, save the changes and trigger a manual run to verify that everything is set up correctly.
+
+By following these steps, you can create a new project in Azure DevOps and configure a pipeline to automate your build and deployment processes.
+![7-pipeline run after push change to git repository](https://github.com/badiou/devops-azure-project2/assets/23726535/e66b3937-95df-49b4-97bb-13e229e5ca30)
+![10-azure pipeline build and deploy  web app completed](https://github.com/badiou/devops-azure-project2/assets/23726535/c74d9f84-aa49-4557-84de-9df40b48dcce)
+
+
+
+
+
 
 
 
