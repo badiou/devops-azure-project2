@@ -46,39 +46,8 @@ GitHub Actions automates your workflow directly from your repository, allowing y
 
 1. **Create Workflow File**: In your project repository, create a directory named `.github/workflows`.
 
-2. **Define Workflow**: Inside the `.github/workflows` directory, create a YAML file (e.g., `python-app.yml`) to define your workflow. Here's a basic example to get you started:
-```
-name: Python application
+2. **Define Workflow**: Inside the `.github/workflows` directory, create a YAML file (e.g., `python-app.yml`) to define your workflow.
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.8"
-    - name: Install dependencies
-      run: |
-        make install
-    - name: Lint with pylint
-      run: |
-        make lint
-    - name: Test with pytest
-      run: |
-        make test```
 
 ## Add python-appl.yaml file (GitAction)
 Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
