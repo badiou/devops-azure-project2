@@ -62,8 +62,8 @@ Commit and push the changes to your repository to trigger the GitAction workflow
 ## Connecting to Azure CLI (Optional)
 
 1. **Clone the Project and Create Virtual Environment**: After logging in to the Azure portal, navigate to your project repository and clone it using the provided options or by accessing the repository URL directly.
-```python3 -m venv ~/.devops-azure-project2
-source ~/.devops-azure-project2/bin/activate```
+`python3 -m venv ~/.devops-azure-project2`
+`source ~/.devops-azure-project2/bin/activate`
 
 2. **Install Dependencies**: run `make all`
 
