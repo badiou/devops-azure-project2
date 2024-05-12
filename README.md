@@ -100,7 +100,7 @@ Follow these steps to create a new project in Azure DevOps:
 
 6. **Navigate to the Project Dashboard**: Once the project is created, you'll be redirected to the project dashboard where you can manage your project's settings, repositories, pipelines, etc.
 
-## Creating a Pipeline in Azure DevOps
+## Creating a Pipeline in Azure DevOps and monitore with locust
 
 Now that you have created a new project, follow these steps to create a pipeline:
 
@@ -120,6 +120,13 @@ By following these steps, you can create a new project in Azure DevOps and confi
 ![7-pipeline run after push change to git repository](https://github.com/badiou/devops-azure-project2/assets/23726535/e66b3937-95df-49b4-97bb-13e229e5ca30)
 ![10-azure pipeline build and deploy  web app completed](https://github.com/badiou/devops-azure-project2/assets/23726535/c74d9f84-aa49-4557-84de-9df40b48dcce)
 
+## Running Load Tests with Locust
+
+Locust is a popular open-source load testing tool that allows you to simulate user traffic on your application and measure its performance under load. Follow these steps to run load tests with Locust:
+
+1. **Install Locust**: If you haven't already installed Locust, you can install it via pip: `pip install locust`
+2. **Run Locust**: Run the command `locust`
+![11-locust](https://github.com/badiou/devops-azure-project2/assets/23726535/aaeb43a9-4893-408f-9fcd-469ec846209d)
 
 
 
