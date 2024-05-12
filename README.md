@@ -1,4 +1,4 @@
-# Apartment Price Prediction App
+# DevOps Azure Pipeline CD/CI - Apartment Price Prediction App
 
 Welcome to our Apartment Price Prediction App! This Flask-based Python application serves as a platform for predicting apartment prices based on various features. Leveraging machine learning models, users can input property details and receive estimated pricing.
 ## Project Management
@@ -164,6 +164,13 @@ We have created demo videos to guide you through various aspects of our project:
    
 5. **Automatic Pipeline Trigger on Code Push**:
    [Video 5](https://youtu.be/ToyrC5FR2LE)
+   
+## Deleting Resources
+If you no longer need the application and its associated resources, you can delete them using the following command in Azure CLI:
+
+```bash
+az group delete --name <resource_group_name> --yes
+
 
 
 
