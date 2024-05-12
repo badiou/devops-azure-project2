@@ -141,6 +141,7 @@ By following these steps, you can create a new project in Azure DevOps and confi
 ## Viewing Logs
 
 To view real-time logs for your Azure Web App, you can use the `az webapp log tail` command. This command allows you to tail the logs directly from the command line interface, providing insights into the runtime behavior of your web application.
+<img width="1433" alt="az webapp log tail command" src="https://github.com/badiou/devops-azure-project2/assets/23726535/8c35145e-2025-4fb2-b2bc-804c42674d91">
 
 ## Running Load Tests with Locust
 
