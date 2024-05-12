@@ -58,7 +58,19 @@ Commit and push the changes to your repository to trigger the GitAction workflow
 - Screenshot showing the execution of GitAction workflow
 ![GitAction](https://github.com/badiou/devops-azure-project2/assets/23726535/595e163c-4a97-4b09-9062-6d96270f3e4a)
 
-## Connect to Azure
+## Azure porail (Bash)
+## Connecting to Azure CLI (Optional)
 
-## CI/CD with Azure pipeline
+1. **Clone the Project and Create Virtual Environment**: After logging in to the Azure portal, navigate to your project repository and clone it using the provided options or by accessing the repository URL directly.
+```python3 -m venv ~/.devops-azure-project2
+source ~/.devops-azure-project2/bin/activate```
+
+2. **Install Dependencies**: run `make all`
+
+3. **Create your webapp**: `az webapp up -n <your_appname> -l eastus`
+<img width="1419" alt="6-webpp create sucessfully" src="https://github.com/badiou/devops-azure-project2/assets/23726535/b3750468-0f1a-4296-b501-f210625abdb7">
+
+
+
+
 
