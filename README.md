@@ -19,8 +19,7 @@ We use Trello for agile management of our project. Trello allows us to create cu
 
 Here's a preview of our Trello board:
 
-[![Trello Board](![Trello](https://github.com/badiou/devops-azure-project2/assets/23726535/7dd92483-5aa9-4d67-8e5d-c83d9e4b7225)
-)](https://trello.com/invite/b/s5xpZs18/ATTI27721d4cff6611f94ccd433660cbd7fa56BB5405/flask-ml-project2)
+[![Trello Board](https://trello.com/invite/b/s5xpZs18/ATTI27721d4cff6611f94ccd433660cbd7fa56BB5405/flask-ml-project2)
 
 ---
 
