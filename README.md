@@ -67,8 +67,21 @@ Commit and push the changes to your repository to trigger the GitAction workflow
 
 2. **Install Dependencies**: run `make all`
 
-3. **Create your webapp**: `az webapp up -n <your_appname> -l eastus`
+3. **Create your webapp**: `az webapp up -n <app-name> -l eastus`
 <img width="1419" alt="6-webpp create sucessfully" src="https://github.com/badiou/devops-azure-project2/assets/23726535/b3750468-0f1a-4296-b501-f210625abdb7">
+
+## Viewing the Application
+
+Once your application is deployed and running on Azure, you can view it in your web browser. Follow these steps to access the application:
+
+1. **Find the Application URL**: After deploying the application on Azure, you'll receive a URL where your application is hosted. This URL typically looks like `https://<app-name>.azurewebsites.net`.
+
+2. **Open the URL in Your Browser**: Copy the application URL and paste it into the address bar of your web browser.
+
+3. **Explore the Application**: Once the URL is opened in your browser, you should see your Flask Python application's interface.
+![running app](https://github.com/badiou/devops-azure-project2/assets/23726535/ba638dde-47e2-4645-852a-1fbca8c010fa)
+
+By following these steps, you can easily access and explore your deployed application in the web browser.
 
 
 
