@@ -66,11 +66,11 @@ GitHub Actions automates your workflow directly from your repository, allowing y
 2. **Define Workflow**: Inside the `.github/workflows` directory, create a YAML file (e.g., `python-app.yml`) to define your workflow.
 ![python-app yml screenshoot](https://github.com/badiou/devops-azure-project2/assets/23726535/44b13a46-33db-4e05-8f46-ccd99efe9611)
 
-## Add python-appl.yaml file (GitAction)
+## Add python-appl.yaml file (GitAction) [![Python application](https://github.com/badiou/devops-azure-project2/actions/workflows/python-app.yml/badge.svg)](https://github.com/badiou/devops-azure-project2/actions/workflows/python-app.yml)
 Create a new YAML file named python-app.yml in the .github/workflows directory of your repository.
 Define the workflow steps in python-app.yml, specifying triggers, jobs, and actions to execute on specific events.
 Commit and push the changes to your repository to trigger the GitAction workflow for adding the python-app.yml file.
-[![Python application](https://github.com/badiou/devops-azure-project2/actions/workflows/python-app.yml/badge.svg)](https://github.com/badiou/devops-azure-project2/actions/workflows/python-app.yml)
+
 - Screenshot showing the execution of GitAction workflow
 ![GitAction](https://github.com/badiou/devops-azure-project2/assets/23726535/595e163c-4a97-4b09-9062-6d96270f3e4a)
 
@@ -118,8 +118,8 @@ Follow these steps to create a new project in Azure DevOps:
 
 6. **Navigate to the Project Dashboard**: Once the project is created, you'll be redirected to the project dashboard where you can manage your project's settings, repositories, pipelines, etc.
 
-## Creating a Pipeline in Azure DevOps
-[![Build Status](https://dev.azure.com/obbadiou/flask-ml-badiou/_apis/build/status%2Fbadiou.devops-azure-project2?branchName=main)](https://dev.azure.com/obbadiou/flask-ml-badiou/_build/latest?definitionId=12&branchName=main)
+## Creating a Pipeline in Azure DevOps [![Build Status](https://dev.azure.com/obbadiou/flask-ml-badiou/_apis/build/status%2Fbadiou.devops-azure-project2?branchName=main)](https://dev.azure.com/obbadiou/flask-ml-badiou/_build/latest?definitionId=12&branchName=main)
+
 Now that you have created a new project, follow these steps to create a pipeline:
 
 1. **Navigate to Pipelines**: In the left sidebar of your project dashboard, click on "Pipelines".
@@ -167,9 +167,7 @@ We have created demo videos to guide you through various aspects of our project:
    
 ## Deleting Resources
 If you no longer need the application and its associated resources, you can delete them using the following command in Azure CLI:
-
-```bash
-az group delete --name <resource_group_name> --yes
+`az group delete --name <resource_group_name> --yes`
 
 
 
