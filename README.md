@@ -81,7 +81,14 @@ Once your application is deployed and running on Azure, you can view it in your 
 3. **Explore the Application**: Once the URL is opened in your browser, you should see your Flask Python application's interface.
 ![running app](https://github.com/badiou/devops-azure-project2/assets/23726535/ba638dde-47e2-4645-852a-1fbca8c010fa)
 
-By following these steps, you can easily access and explore your deployed application in the web browser.
+## Making Predictions
+
+In our Apartment Price Prediction App, you can easily make predictions bu running the commands
+`./make_predict_azure_app.sh`
+<img width="1430" alt="3-Prediction" src="https://github.com/badiou/devops-azure-project2/assets/23726535/4f8ceb56-31e2-438c-828a-7b7cdfc5b82e">
+
+
+
 
 
 
