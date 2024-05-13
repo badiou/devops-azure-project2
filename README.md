@@ -25,7 +25,7 @@ Here's a preview of our Trello board:
 - **Continuous Integration/Continuous Deployment (CI/CD):** Integrated with Azure Pipelines and GitHub Actions for streamlined development and deployment workflows.
 - **Load Testing with Locust:** Ensures application performance and reliability under heavy traffic.
 
-## Architecture Diagram
+## Architectural Diagram
 
 This diagram illustrates the architecture of our development and deployment pipeline for the Flask application. Here's the flow of operations:
 <img width="999" alt="Diagram architecture" src="https://github.com/badiou/devops-azure-project2/assets/23726535/c156f059-9105-4e57-bc65-843e620f3102">
