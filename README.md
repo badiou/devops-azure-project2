@@ -26,6 +26,7 @@ Here's a preview of our Trello board:
 - **Load Testing with Locust:** Ensures application performance and reliability under heavy traffic.
 
 ## Architecture Diagram
+<img width="835" alt="Diragram architecture" src="https://github.com/badiou/devops-azure-project2/assets/23726535/5555be00-56a7-425e-8d4e-cfe70ea6870b">
 
 This diagram illustrates the architecture of our development and deployment pipeline for the Flask application. Here's the flow of operations:
 
