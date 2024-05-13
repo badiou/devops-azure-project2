@@ -7,6 +7,7 @@ cd devops-azure-project2
 # Update repo
 git pull
 
+
 # install all requirements
 make all
 
