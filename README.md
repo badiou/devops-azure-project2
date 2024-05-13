@@ -164,13 +164,15 @@ Locust is a popular open-source load testing tool that allows you to simulate us
 
 1. **Install Locust**: If you haven't already installed Locust, you can install it via pip: `pip install locust`
 2. **Run Locust**: Run the command `locust`
-![11-locust](https://github.com/badiou/devops-azure-project2/assets/23726535/aaeb43a9-4893-408f-9fcd-469ec846209d)
+<img width="291" alt="locust1" src="https://github.com/badiou/devops-azure-project2/assets/23726535/e8c27703-0aa3-4361-b0d7-e393b940dc0b">
+<img width="1430" alt="locust2" src="https://github.com/badiou/devops-azure-project2/assets/23726535/de65a6a3-6f55-4ff5-82f6-0ceadbd85526">
 
 ## Demo Videos
 
 I have created demo video to guide you through various aspects of our project:
 
    [Video 1](https://youtu.be/TutLAGMlhlY)
+
 
 ## Deleting Resources
 If you no longer need the application and its associated resources, you can delete them using the following command in Azure CLI:
