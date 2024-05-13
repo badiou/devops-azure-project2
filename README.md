@@ -169,10 +169,7 @@ Locust is a popular open-source load testing tool that allows you to simulate us
 
 ## Demo Videos
 
-I have created demo video to guide you through various aspects of our project:
-
-   [Video 1](https://youtu.be/TutLAGMlhlY)
-
+I have created demo video [Here](https://youtu.be/TutLAGMlhlY) to guide you through various aspects of our project:
 
 ## Deleting Resources
 If you no longer need the application and its associated resources, you can delete them using the following command in Azure CLI:
