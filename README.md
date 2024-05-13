@@ -27,8 +27,8 @@ Here's a preview of our Trello board:
 
 ## Architecture Diagram
 
-
 This diagram illustrates the architecture of our development and deployment pipeline for the Flask application. Here's the flow of operations:
+<img width="999" alt="Diagram architecture" src="https://github.com/badiou/devops-azure-project2/assets/23726535/c156f059-9105-4e57-bc65-843e620f3102">
 
 - **Code Development**: The Flask application code is developed locally or in a development environment, then pushed to a GitHub repository.
   
