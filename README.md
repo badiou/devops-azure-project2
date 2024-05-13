@@ -24,6 +24,23 @@ Here's a preview of our Trello board:
 - **Azure Deployment:** Deployed on Azure, ensuring scalability and reliability.
 - **Continuous Integration/Continuous Deployment (CI/CD):** Integrated with Azure Pipelines and GitHub Actions for streamlined development and deployment workflows.
 - **Load Testing with Locust:** Ensures application performance and reliability under heavy traffic.
+**Architecture Diagram**
+
+![Architecture Diagram](lien_vers_votre_image.png)
+
+## Explanation:
+
+This diagram illustrates the architecture of our development and deployment pipeline for the Flask application. Here's the flow of operations:
+
+1. **Code Development**: The Flask application code is developed locally or in a development environment, then pushed to a GitHub repository.
+
+2. **Continuous Integration with GitAction**: Upon each code push to the GitHub repository, GitAction triggers a build process that compiles the project, installs all necessary dependencies, and runs tests to ensure code quality.
+
+3. **CI/CD Pipeline with Azure Pipeline**: Once tests pass successfully, Azure Pipeline takes over for the CI/CD process. It consists of two main stages:
+   - **Build Stage**: Azure Pipeline builds the Flask application from the source code, generating the necessary artifacts for deployment.
+   - **Deployment**: Once the build is complete, Azure Pipeline automatically deploys the application to the target infrastructure, ensuring that the deployed version is always up-to-date and functional.
+
+This architecture ensures a smooth and reliable development process, from code conception to production deployment.
 
 ## Getting Started
 
